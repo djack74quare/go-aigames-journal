@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>爱游戏 · 快速识别站 · go-aigames</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #faf7f0;
+      font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+      color: #2e2b26;
+      line-height: 1.8;
+      padding: 2.4rem 1.2rem;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #fefcf7;
+      padding: 3rem 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.03);
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      border-left: 6px solid #b89b7a;
+      padding-left: 1.2rem;
+      margin-bottom: 0.25rem;
+      color: #322f2b;
+    }
+
+    .subline {
+      font-size: 1rem;
+      color: #8a7f72;
+      margin-bottom: 2rem;
+      font-style: italic;
+      border-bottom: 1px dashed #e2d9cc;
+      padding-bottom: 1rem;
+    }
+
+    .intro {
+      font-size: 1.08rem;
+      background: #f4efe8;
+      padding: 1.2rem 1.6rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      color: #3d3832;
+    }
+
+    .intro strong {
+      color: #5f4e3c;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 450;
+      margin: 2rem 0 0.8rem 0;
+      color: #3f3a34;
+      border-bottom: 2px solid #ece3d9;
+      padding-bottom: 0.4rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.03rem;
+      text-align: justify;
+    }
+
+    .pull-quote {
+      background: #f2ede6;
+      border-left: 4px solid #c1a88c;
+      padding: 1rem 1.6rem;
+      margin: 1.8rem 0;
+      border-radius: 0 8px 8px 0;
+      font-style: normal;
+      color: #4a443e;
+      font-size: 1.02rem;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+    }
+
+    .pull-quote::before {
+      content: "💬 ";
+      font-size: 1.1rem;
+    }
+
+    .highlight-box {
+      background: #f9f3eb;
+      border: 1px solid #ddd2c4;
+      border-radius: 10px;
+      padding: 1.2rem 1.6rem;
+      margin: 1.8rem 0;
+    }
+
+    .highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .faq-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      margin: 1.4rem 0;
+    }
+
+    .faq-item {
+      background: #f7f3ed;
+      padding: 0.8rem 1.2rem;
+      border-radius: 6px;
+      border-left: 3px solid #bda68b;
+    }
+
+    .faq-item .q {
+      font-weight: 600;
+      color: #4d423a;
+    }
+
+    .faq-item .a {
+      color: #5c544c;
+      margin-top: 0.2rem;
+    }
+
+    a {
+      color: #7b664f;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 0.5px;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: #a68467;
+    }
+
+    .site-link-sentence {
+      margin: 1.8rem 0 0.8rem 0;
+      padding: 0.8rem 0 0.2rem 0;
+      border-top: 1px solid #e6ddd2;
+      font-size: 1.02rem;
+    }
+
+    .footer-note {
+      margin-top: 2.6rem;
+      color: #958b7e;
+      font-size: 0.9rem;
+      border-top: 1px solid #e9e0d5;
+      padding-top: 1.6rem;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem 0.6rem;
+      }
+      .container {
+        padding: 1.8rem 1.2rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+        padding-left: 0.8rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+      .intro {
+        font-size: 1rem;
+        padding: 1rem 1.2rem;
+      }
+      p {
+        font-size: 0.98rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <h1>爱游戏 · 快速识别站</h1>
+  <div class="subline">从名字到用途 · 一篇简洁说明</div>
+
+  <div class="intro">
+    <strong>也许你刚看到「爱游戏」这个名字</strong>，不确定它是指一个社区、一款聚合工具，还是一个资讯平台。本文用最直接的方式帮你弄清楚——这到底是一个什么样的网站。
+  </div>
+
+  <h2>它是什么</h2>
+  <p><a href="https://go-aigames.com.cn">爱游戏</a> 是一个围绕「游戏内容与轻量交互」而设计的站点。你不需要注册或下载额外软件，打开页面就能看到游戏相关资讯、推荐或工具入口。整个网站的结构偏向于信息型页面，适合快速浏览和获取要点。</p>
+  <p>从实际访问体验来看，它更像一个游戏集合或引导页——把零散的游戏信息整理成清晰的模块，让用户一眼找到感兴趣的部分。没有复杂的菜单层级，没有冗余的加载等待。</p>
+
+  <div class="pull-quote">
+    一位初次访问的用户说：“我只花了不到一分钟就弄懂了这里有什么，比想象中直接。”
+  </div>
+
+  <h2>三个你可以快速确认的特点</h2>
+  <p><strong>特点一：内容导向。</strong> 主要展示与游戏相关的介绍、玩法说明或列表，没有强商业推销感。文字和链接都围绕「让用户理解」展开。</p>
+  <p><strong>特点二：轻结构。</strong> 页面采用文章式布局，段落分明，引用和提示框用来突出关键信息，而不是用弹窗或横幅干扰阅读。</p>
+  <p><strong>特点三：中立语气。</strong> 不夸大任何一款游戏的效果，也不诱导点击。它更像一份整理过的参考页，你可以信任上面的描述。</p>
+
+  <div class="highlight-box">
+    <p><strong>📌 使用场景举例</strong></p>
+    <p>· 你想快速了解某个游戏类型的概况，打开 <a href="https://go-aigames.com.cn">爱游戏</a> 看整理好的段落。<br>
+    · 你正在找某个游戏的关键信息（平台、风格、核心玩法），页面里的引用块和列表能帮你节省搜索时间。<br>
+    · 你只是随便看看，没有特定目的——网站的设计不会强迫你做任何操作，浏览本身就是完整的体验。</p>
+  </div>
+
+  <h2>FAQ 摘要</h2>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <span class="q">问：需要登录才能看内容吗？</span>
+      <div class="a">答：不需要。所有正文和引用提示都直接展示，无需注册或授权。</div>
+    </div>
+    <div class="faq-item">
+      <span class="q">问：网站主要面向哪类用户？</span>
+      <div class="a">答：游戏爱好者、想快速了解游戏内容的轻度玩家，以及任何对游戏信息有查阅需求的人。</div>
+    </div>
+    <div class="faq-item">
+      <span class="q">问：内容会频繁更新吗？</span>
+      <div class="a">答：目前以稳定信息为主，更新节奏平缓。每次变动都会以段落或提示形式呈现。</div>
+    </div>
+  </div>
+
+  <div class="site-link-sentence">
+    如果你想直接体验，可以前往 <a href="https://go-aigames.com.cn">爱游戏</a> 自己看看。页面上没有多余装饰，你看到的就是它想表达的全部。
+  </div>
+
+  <div class="footer-note">
+    基于实际访问整理 · 不预设期待，只描述所见
+  </div>
+
+</div>
+</body>
+</html>
